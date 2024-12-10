@@ -18,10 +18,10 @@ The software will be text-based, and usable from the command line.
 - os module: usually pre-intalled with python3
 - json module: usually pre-intalled with python3
 
-Check [Useful Resources](#useful) paragraph for more info.
+Check [Useful Resources](#useful-resources) paragraph for more info.
 
 
-## <a: id="useful"> Useful resources: 
+## Useful resources: 
 
 - [How to install python3](https://www.geeksforgeeks.org/download-and-install-python-3-latest-version/)
 - [How to install the os module](https://www.geeksforgeeks.org/how-to-install-os-sys-module-in-python/)
