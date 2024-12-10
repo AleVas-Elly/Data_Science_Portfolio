@@ -12,13 +12,34 @@ The software must let the user:
 The software will be text-based, and usable from the command line.
 
 
-## Requirement:
+## Requirements
 
 - python3: any version
 - os module: usually pre-intalled with python3
 - json module: usually pre-intalled with python3
 
 Check [Useful Resources](#useful-resources) paragraph for more info.
+
+## Usage
+
+Download BioMarket_s.a.s folder on ur computer. You are gonna find a python script named BioMarket_management.py.
+Copy the script in the folder you want the inventory file to be created in, or alternatively open the file and change the variable 
+
+'''inventory_path''' in main()
+
+to the global path you want the file to be created
+
+from the command line enter:
+'''
+python3 BioMarket_management.py
+'''
+
+Using the software is pretty straight forward.
+Use the command help() ot have a list of possible commands
+
+ATTENTION!!!
+The inventory is saved only and only if through the function exit() by deisgn, therefore all the changes made in the session are not gonna be permanent if the program is quitted abruptly.
+I adopted this solution because it has been explicitly requeested by the contractor
 
 
 ## Useful resources: 
@@ -27,35 +48,5 @@ Check [Useful Resources](#useful-resources) paragraph for more info.
 - [How to install the os module](https://www.geeksforgeeks.org/how-to-install-os-sys-module-in-python/)
 - [How to install the json module](https://www.geeksforgeeks.org/add-json-library-in-python/)
 
-nofa
-sdf
-asd
-f
-asd
-f
-asd
-f
-asdf
-a
-sdf
-a
-sdf
-a
-sdf
-as
-df
-a
-sdf
-
-asd
-f
-asd
-f
-asd
-f
-as
-df
-asd
-f
 
 
