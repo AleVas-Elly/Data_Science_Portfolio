@@ -18,7 +18,7 @@ The software will be text-based, and usable from the command line.
 - os module: usually pre-intalled with python3
 - json module: usually pre-intalled with python3
 
-Check [Useful Resources](useful) paragraph for more info.
+Check [Useful Resources](#useful) paragraph for more info.
 
 <a: name="useful">
 ##Useful resources:
