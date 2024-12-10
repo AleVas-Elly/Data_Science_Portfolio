@@ -20,8 +20,8 @@ The software will be text-based, and usable from the command line.
 
 Check [Useful Resources](#useful) paragraph for more info.
 
-<a: name="useful">
-##Useful resources:
+
+## <a: name="useful"> Useful resources: 
 
 - [How to install python3](https://www.geeksforgeeks.org/download-and-install-python-3-latest-version/)
 - [How to install the os module](https://www.geeksforgeeks.org/how-to-install-os-sys-module-in-python/)
