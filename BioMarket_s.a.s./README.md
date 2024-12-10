@@ -7,8 +7,25 @@ The software must let the user:
 - Record completed sales.
 - Display gross and net profits.
 - Show a help menu with all available commands.
+- Handle possible mistakes of the user.
 
 The software will be text-based, and usable from the command line.
 
-## Functionalities of the software:
+
+## Requirement:
+
+- python3: any version
+- os module: usually pre-intalled with python3
+- json module: usually pre-intalled with python3
+
+Check [Useful Resources](useful) paragraph for more info.
+
+<a: name="useful">
+##Useful resources:
+
+- [How to install python3](https://www.geeksforgeeks.org/download-and-install-python-3-latest-version/)
+- [How to install the os module](https://www.geeksforgeeks.org/how-to-install-os-sys-module-in-python/)
+- [How to install the json module](https://www.geeksforgeeks.org/add-json-library-in-python/)
+
+
 
