@@ -23,23 +23,28 @@ Check [Useful Resources](#useful-resources) paragraph for more info.
 ## Usage
 
 Download BioMarket_s.a.s folder on ur computer. You are gonna find a python script named BioMarket_management.py.
-Copy the script in the folder you want the inventory file to be created in, or alternatively open the file and change the variable 
+Copy the script in the folder you want the inventory file to be created in.
 
-'''inventory_path''' in main()
+alternatively open the file and change the variable 
 
-to the global path you want the file to be created
+```inventory_path``` in ```main()```
 
-from the command line enter:
-'''
+to the global path you want the file to be created.
+
+from the console enter:
+
+```console
 python3 BioMarket_management.py
-'''
+```
 
 Using the software is pretty straight forward.
-Use the command help() ot have a list of possible commands
+Use the command ```help()``` to have the list of possible commands
 
-ATTENTION!!!
-The inventory is saved only and only if through the function exit() by deisgn, therefore all the changes made in the session are not gonna be permanent if the program is quitted abruptly.
-I adopted this solution because it has been explicitly requeested by the contractor
+<ATTENTION!!! style='color:red'>
+By design, the inventory is saved on the file, only and only through the function exit(), therefore all the changes made in the session are not gonna be permanent if the program is quitted abruptly.
+This has been implemeted this way because explicitly asked by the contractor
+
+
 
 
 ## Useful resources: 
