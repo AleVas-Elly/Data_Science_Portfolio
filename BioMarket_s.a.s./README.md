@@ -31,16 +31,16 @@ alternatively open the file and change the variable
 
 to the global path you want the file to be created.
 
-from the console enter:
+From the console enter:
 
 ```console
-python3 BioMarket_management.py
+python3 /global_path/BioMarket_management.py
 ```
 
 Using the software is pretty straight forward.
 Use the command ```help()``` to have the list of possible commands
 
-<ATTENTION!!! style='color:red'>
+###**ATTENTION!!!**
 By design, the inventory is saved on the file, only and only through the function exit(), therefore all the changes made in the session are not gonna be permanent if the program is quitted abruptly.
 This has been implemeted this way because explicitly asked by the contractor
 
