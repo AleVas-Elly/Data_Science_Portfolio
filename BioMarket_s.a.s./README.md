@@ -45,13 +45,13 @@ By design, the inventory is saved on the file, only and only through the functio
 This has been implemeted this way because explicitly asked by the contractor
 
 
-
-
 ## Useful resources: 
 
 - [How to install python3](https://www.geeksforgeeks.org/download-and-install-python-3-latest-version/)
 - [How to install the os module](https://www.geeksforgeeks.org/how-to-install-os-sys-module-in-python/)
 - [How to install the json module](https://www.geeksforgeeks.org/add-json-library-in-python/)
 
+## Possible improvements:
 
+Implementing a ```back()``` function to let the user go back to the main menu (Enter a command: ) when they make a typo or another mistake
 
