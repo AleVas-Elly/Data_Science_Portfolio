@@ -14,15 +14,15 @@ The software will be text-based, and usable from the command line.
 
 ## Requirements
 
-- python3: any version
-- os module: usually pre-intalled with python3
-- json module: usually pre-intalled with python3
+- *python3*: any version
+- *os modul*e: usually pre-intalled with python3
+- *json module*: usually pre-intalled with python3
 
-Check [Useful Resources](#useful-resources) paragraph for more info.
+Check out the [Useful Resources](#useful-resources) paragraph for more info.
 
 ## Usage
 
-Download BioMarket_s.a.s folder on ur computer. You are gonna find a python script named BioMarket_management.py.
+Download BioMarket_s.a.s folder on ur computer. You are gonna find a python script named BioMarket_management.py in it.
 Copy the script in the folder you want the inventory file to be created in.
 
 alternatively open the file and change the variable 
@@ -31,16 +31,16 @@ alternatively open the file and change the variable
 
 to the global path you want the file to be created.
 
-From the console enter:
+Make BioMarket_s.a.s folder the current directory and on your console run:
 
 ```console
-python3 /global_path/BioMarket_management.py
+python3 BioMarket_management.py
 ```
 
 Using the software is pretty straight forward.
-Use the command ```help()``` to have the list of possible commands
+Use the command ```help()``` to have the list of possible commands.
 
-###**ATTENTION!!!**
+### **ATTENTION!!!**
 By design, the inventory is saved on the file, only and only through the function exit(), therefore all the changes made in the session are not gonna be permanent if the program is quitted abruptly.
 This has been implemeted this way because explicitly asked by the contractor
 
