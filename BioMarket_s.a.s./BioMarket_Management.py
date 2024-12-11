@@ -247,6 +247,9 @@ def profit(data):
   print(f"\nGross profit = {round(data['Sales']['gross'], 2)}$\n" +
         f"Net profit = {round(data['Sales']['net'], 2)}$ ")
 
+
+
+
 def main():
 
   '''
@@ -257,10 +260,9 @@ def main():
 
   '''
 
-  inventory_path = "" #global path at which the user wants the inventory.json file
+  inventory_path = "" #global path to which the user wants the inventory.json file
   data = load_data(inventory_path) #json object  
-  command = ""
-
+  
   while True:
     command = input("\n\nEnter a command: ").strip().lower()
 
@@ -279,6 +281,8 @@ def main():
       sell(data)
     elif command == "profit":
       profit(data)
+    elif command == "doc":
+      print(sell.__doc__)
     else:
       print("Selected command is not available.")
       display_help()
@@ -287,12 +291,7 @@ if __name__ == "__main__":
   main()
 
 """
-Instructions are not followed to the letter in the add function, i just wanted to implement an extra functionality
-to help the user experience.
-
 Improvements:
-Implementing a saving function each time an operation is made in order to save the 
-file automatically after every change made by the user
 Implement a back function to let the user go back to the main menu (Enter a command: ) when they make a mistake
 
 """
