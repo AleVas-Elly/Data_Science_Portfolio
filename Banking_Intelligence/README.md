@@ -44,3 +44,6 @@ Indicators are calculated for each customer and include:
 ## Deliverables
 - The final output should be delivered as an SQL file containing the denormalized table.
 
+## N.B.
+For obvious reasons the database is not provided.
+
